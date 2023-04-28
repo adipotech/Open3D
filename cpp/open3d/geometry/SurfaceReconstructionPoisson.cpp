@@ -51,7 +51,7 @@ static const int NORMAL_DEGREE = 2;
 // The default finite-element degree
 static const int DEFAULT_FEM_DEGREE = 1;
 // The default finite-element boundary type
-static const BoundaryType DEFAULT_FEM_BOUNDARY = BOUNDARY_NEUMANN;
+static const BoundaryType DEFAULT_FEM_BOUNDARY = BOUNDARY_DIRICHLET;
 // The dimension of the system
 static const int DIMENSION = 3;
 
