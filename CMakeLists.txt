@@ -17,6 +17,7 @@ set (CMAKE_OSX_DEPLOYMENT_TARGET "10.15" CACHE STRING
     "Minimum OS X deployment version" FORCE)
 endif()
 
+
 # CMAKE_HOST_SYSTEM_PROCESSOR is only available after calling project(),
 # which depends on ${OPEN3D_VERSION}, which depends on ${DEVELOPER_BUILD}.
 if(UNIX AND NOT APPLE)
